@@ -40,7 +40,14 @@ echo $passed" PASSED out of "$(($failed+$passed))" ("$failed" failed)"
  2. Download tests cases called "messages"
 
  3. Run code
+
+# How to run
+1. run following command
+ g++ Huffman.cpp
+2. run following command :
+ ./runTests a.out messages/
+ 
    a. Put the following line in your terminal "g++ Huffman.cpp"
 
- 4. Run test cases
+ 3. Run test cases
    a. Put the following line in your terminal " ./runTests a.out messages" 
