@@ -1,10 +1,10 @@
 # CSCI411_Project
-# For my CSCI 411 Project I did the Huffman Algorithm.
+For my CSCI 411 Project I did the Huffman Algorithm.
 
 # In order to run the testcases, do the following : 
 
-# 1. Get runTests
-#   a. Create a file in your terminal thats called "runTests" and has the below bash information
+ 1. Get runTests
+   a. Create a file in your terminal thats called "runTests" and has the below bash information
 
 #!/bin/bash
 
@@ -37,10 +37,10 @@ done
 echo $passed" PASSED out of "$(($failed+$passed))" ("$failed" failed)"
 
 
-# 2. Download tests cases called "messages"
+ 2. Download tests cases called "messages"
 
-# 3. Run code
-#   a. Put the following line in your terminal "g++ Huffman.cpp"
+ 3. Run code
+   a. Put the following line in your terminal "g++ Huffman.cpp"
 
-# 4. Run test cases
-#   a. Put the following line in your terminal " ./runTests a.out messages" 
+ 4. Run test cases
+   a. Put the following line in your terminal " ./runTests a.out messages" 
